@@ -1,0 +1,17 @@
+at\aschl\pgs\service\implementation\SimpleRoomService.class
+at\aschl\pgs\configuration\properties\AuthenticationConfigurationProperties.class
+at\aschl\pgs\configuration\SecurityConfiguration$1.class
+at\aschl\pgs\configuration\WebSocketConfig.class
+at\aschl\pgs\configuration\properties\ApplicationConfigurationProperties.class
+at\aschl\pgs\configuration\SecurityConfiguration$WebSecurityConfiguration.class
+at\aschl\pgs\util\RoomHasher.class
+at\aschl\pgs\data\Message.class
+at\aschl\pgs\endpoint\PrintEndpoint.class
+at\aschl\pgs\configuration\properties\H2ConsoleConfigurationProperties.class
+at\aschl\pgs\configuration\SecurityConfiguration$2.class
+at\aschl\pgs\endpoint\RoomEndpoint.class
+at\aschl\pgs\PartyGameServiceApplication.class
+at\aschl\pgs\configuration\SecurityConfiguration.class
+at\aschl\pgs\endpoint\SecretHitlerEndpoint.class
+at\aschl\pgs\service\RoomService.class
+at\aschl\pgs\configuration\JacksonConfiguration.class

@@ -1,0 +1,44 @@
+{
+  "groups": [
+    {
+      "name": "application.authentication",
+      "type": "at.aschl.pgs.configuration.properties.AuthenticationConfigurationProperties",
+      "sourceType": "at.aschl.pgs.configuration.properties.AuthenticationConfigurationProperties"
+    },
+    {
+      "name": "spring.application",
+      "type": "at.aschl.pgs.configuration.properties.ApplicationConfigurationProperties",
+      "sourceType": "at.aschl.pgs.configuration.properties.ApplicationConfigurationProperties"
+    },
+    {
+      "name": "spring.h2.console",
+      "type": "at.aschl.pgs.configuration.properties.H2ConsoleConfigurationProperties",
+      "sourceType": "at.aschl.pgs.configuration.properties.H2ConsoleConfigurationProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.authentication.secret",
+      "type": "java.lang.String",
+      "sourceType": "at.aschl.pgs.configuration.properties.AuthenticationConfigurationProperties"
+    },
+    {
+      "name": "spring.application.version",
+      "type": "java.lang.String",
+      "sourceType": "at.aschl.pgs.configuration.properties.ApplicationConfigurationProperties"
+    },
+    {
+      "name": "spring.h2.console.access-matcher",
+      "type": "java.lang.String",
+      "sourceType": "at.aschl.pgs.configuration.properties.H2ConsoleConfigurationProperties",
+      "defaultValue": "denyAll"
+    },
+    {
+      "name": "spring.h2.console.path",
+      "type": "java.lang.String",
+      "sourceType": "at.aschl.pgs.configuration.properties.H2ConsoleConfigurationProperties",
+      "defaultValue": "\/h2-console"
+    }
+  ],
+  "hints": []
+}

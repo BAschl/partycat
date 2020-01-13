@@ -1,0 +1,20 @@
+
+spring:
+  application:
+    name: Party Game Service
+    version: @project.version@
+  jpa:
+    hibernate:
+      ddl-auto: validate
+      use-new-id-generator-mappings: true
+  profiles:
+    active: development
+
+security:
+  basic:
+    enabled: false
+
+management:
+  info:
+    git:
+      mode: full
